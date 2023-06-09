@@ -2,6 +2,8 @@ import { useState,useEffect} from 'react';
 import { createStyles, Header, Container, Group, Burger, rem } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { useRouter } from 'next/router';
+import { Drawer } from '@mantine/core';
+
 const useStyles = createStyles((theme) => ({
   header: {
     display: 'flex',
@@ -86,7 +88,17 @@ export function HeaderSimple({ links }: HeaderSimpleProps) {
           {items}
         </Group>
 
-        <Burger opened={opened} onClick={toggle} className={classes.burger} size="sm" />
+        <Burger opened={opened} onClick={toggle} aria-label="Open navigation" className={classes.burger} size="sm" />
+        <Drawer
+          opened={opened}
+          onClose={toggle}
+          padding="md"
+          size="xs"
+          position="right"
+          transition="slide-right"
+        >
+          {items}
+        </Drawer>
       </Container>
     </Header>
   );
