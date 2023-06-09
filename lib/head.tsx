@@ -95,7 +95,6 @@ export function HeaderSimple({ links }: HeaderSimpleProps) {
           padding="md"
           size="xs"
           position="right"
-          transition="slide-right"
         >
           {items}
         </Drawer>
