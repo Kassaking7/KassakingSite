@@ -5,4 +5,6 @@ date: '2023-06-08'
 
 I came up with the idea of designing a 2D game using Unity at the beginning of 2023. 
 
-To start this jouney, I first take a look at some tutorial videoes
+To start this jouney, I first take a look at some tutorial videoes at youtube. 
+
+One good video I watched is the flip bird tutorial:https://www.youtube.com/watch?v=XtQMytORBmM
