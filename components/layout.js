@@ -9,7 +9,7 @@ export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
   const header = [
-    { link: '/blogs', label: 'Blogs' },
+    { link: '/', label: 'Blogs' },
     { link: '/about', label: 'About Me' },
     { link: '/Resume.pdf', label: 'Resume' }
   ]
