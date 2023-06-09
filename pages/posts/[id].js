@@ -7,6 +7,7 @@ import utilStyles from '../../styles/utils.module.css';
 export default function Post({ postData }) {
   return (
     <Layout>
+        <main>
       <Head>
         <title>{postData.title}</title>
       </Head>
@@ -16,7 +17,7 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-      </article>
+      </article></main>
     </Layout>
   );
 }

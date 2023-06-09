@@ -7,4 +7,4 @@ I came up with the idea of designing a 2D game using Unity at the beginning of 2
 
 To start this jouney, I first take a look at some tutorial videoes at youtube. 
 
-One good video I watched is the flip bird tutorial:https://www.youtube.com/watch?v=XtQMytORBmM
+One good video I watched is the flip bird tutorial: https://www.youtube.com/watch?v=XtQMytORBmM

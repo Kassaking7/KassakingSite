@@ -1,14 +1,14 @@
-import { useState } from 'react';
+import { useState,useEffect} from 'react';
 import { createStyles, Header, Container, Group, Burger, rem } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { MantineLogo } from '@mantine/ds';
-
+import { useRouter } from 'next/router';
 const useStyles = createStyles((theme) => ({
   header: {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
     height: '100%',
+    margin: 0
   },
 
   links: {
@@ -40,9 +40,14 @@ const useStyles = createStyles((theme) => ({
 
   linkActive: {
     '&, &:hover': {
-      backgroundColor: theme.fn.variant({ variant: 'light', color: theme.primaryColor }).background,
-      color: theme.fn.variant({ variant: 'light', color: theme.primaryColor }).color,
+      backgroundColor: theme.fn.variant({ variant: 'light', color: 'violet.4' }).background,
+      color: theme.fn.variant({ variant: 'light', color: 'violet.4' }).color,
     },
+  },
+
+  myName: {
+    fontWeight: "bold",
+    fontSize:25,
   },
 }));
 
@@ -54,25 +59,29 @@ export function HeaderSimple({ links }: HeaderSimpleProps) {
   const [opened, { toggle }] = useDisclosure(false);
   const [active, setActive] = useState(links[0].link);
   const { classes, cx } = useStyles();
+  const router = useRouter();
+  const currentPath = router.pathname; 
+  const items = links.map((link) => {
+    const isActive = link.link === currentPath; 
+    const linkClassName = cx(classes.link, { [classes.linkActive]: isActive });
 
-  const items = links.map((link) => (
+    return (
     <a
       key={link.label}
       href={link.link}
-      className={cx(classes.link, { [classes.linkActive]: active === link.link })}
-      onClick={(event) => {
-        event.preventDefault();
+      className={linkClassName}
+      onClick={() => {
         setActive(link.link);
       }}
     >
       {link.label}
     </a>
-  ));
+  )});
 
   return (
-    <Header height={60} mb={120}>
+    <Header height={40} mb={120}>
       <Container className={classes.header}>
-        <MantineLogo size={28} />
+        <div className={classes.myName}>Zhiyuan Wang</div>
         <Group spacing={5} className={classes.links}>
           {items}
         </Group>
