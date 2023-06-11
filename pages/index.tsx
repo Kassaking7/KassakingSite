@@ -16,6 +16,9 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
+      <Head>
+        <title>{siteTitle}</title>
+      </Head>
       {/* Keep the existing code here */}
       {/* Add this <section> tag below the existing <section> tag */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
