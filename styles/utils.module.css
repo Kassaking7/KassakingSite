@@ -74,3 +74,15 @@
     font-size: 25px;
     margin: 0;
   }
+
+
+  .tableWidth {
+  
+    width:20%;
+  }
+
+
+  .tableWidth > tbody > tr > td {
+  
+    text-align: center;
+  }

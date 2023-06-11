@@ -3,8 +3,9 @@ import Image from 'next/image'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
-import Link from 'next/link'
-import Date from '../components/date'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub,faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 export default function Home({ allPostsData }) {
   return (
@@ -26,6 +27,19 @@ export default function Home({ allPostsData }) {
         <p>Zhiyuan Wang</p>
         <p>3B Data Science</p>
         <p>University of Waterloo</p>
+
+        <table className={utilStyles.tableWidth}>
+            <tbody>
+            <tr>
+                <td><a href="mailto: z2564wan@uwaterloo.ca"><FontAwesomeIcon icon={faEnvelope} style={{color:"#9775fa"}}/></a></td>
+                <td><a href="https://www.linkedin.com/in/zhiyuan-wang-923771243/"><FontAwesomeIcon icon={faLinkedin} style={{color:"#9775fa"}} /></a></td>
+                <td><a href="https://github.com/Kassaking7"><FontAwesomeIcon icon={faGithub} style={{color:"#9775fa"}}/></a></td>
+            </tr>
+            </tbody>
+        </table>
+            
+            
+            
       </section>
       <section className={utilStyles.headingMd}>
         <p>Welcome to my personal website!</p>

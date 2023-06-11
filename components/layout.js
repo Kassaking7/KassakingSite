@@ -4,8 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import { HeaderSimple } from '../lib/head';
-const name = 'Your Name';
-export const siteTitle = 'Next.js Sample Website';
+const name = 'Kassaking';
+export const siteTitle = 'Kassaking\'s Web';
 
 export default function Layout({ children, home }) {
   const header = [
