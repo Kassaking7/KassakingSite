@@ -19,7 +19,7 @@ My idea is making a 2D side-srcolling game, Maybe like Hollow Knight. I first co
 
 Now I get everything I need. It's time to create the character and the backgrounds in Unity. 
 
-![1](/images/1.png)
+![1](/images/Unity2DGame/1.png)
 
 (The screenshot is from the latest version, where lights, trashBin, etc.. all added)
 
