@@ -88,6 +88,16 @@
   }
 
   .mainText > p > img{
-    width: 900px;
-    height: 500px;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
   }
+
+  .mainText > pre {
+    overflow-x: auto;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
