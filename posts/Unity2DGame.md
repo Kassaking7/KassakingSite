@@ -289,7 +289,7 @@ public class SickleHit : MonoBehaviour
 
 
 
-![3](images/Unity2DGame/3.png)
+![3](/images/Unity2DGame/3.png)
 
 It looks good. But one problem is that when I jump, the sickle will also "jump", which is not I expected to happen. I want it remain its y-axis when it's dashing and go back to player's current position. So I add a control-flow for it:
 
