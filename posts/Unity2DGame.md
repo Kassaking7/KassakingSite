@@ -7,13 +7,14 @@ date: '2023-06-08'
 
 ## Everything starts here
 
-I came up with the idea of designing a 2D game using Unity at the beginning of 2023. The reason might be I see some interesting game-designing videos or I just finished my first co-op and find myself doing something I'm not really interested in. (I mean, game is always more attracting, right?)
+The code can be see at [github](https://github.com/Kassaking7/2D-side-scroller-game).
 
-To start this jouney, I first take a look at some tutorial videoes at youtube. 
+I came up with the idea of designing a 2D game using Unity at the beginning of 2023. The reason might be I see some interesting game-designing videos.
+To start this jouney, I first took a look at some tutorial videoes at youtube. 
 
 One good video I watched is the flip bird tutorial [here](https://www.youtube.com/watch?v=XtQMytORBmM)
 
-I don't spend too much time on learning the grammar of C# at the very first, since I feel it pretty much like C/Java.
+I don't spend too much time on learning the syntax of C# at the very first, since I feel it pretty much like C++/Java.
 
 ## Basic Stuffs
 ##### 2023 Jan ~ Mar
