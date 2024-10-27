@@ -12,7 +12,7 @@ export default function Home() {
         <div className="bg-black bg-opacity-70 p-8 rounded-lg">
           <h2 className="text-3xl font-bold mb-8">About Me</h2>
           <p className="text-lg mb-4 ">
-            Hello! I'm Zhiyuan Wang. I'm a currently a fourth year student majoring in Computer Science @ University of Waterloo.
+            Hello! I&apos;m Zhiyuan Wang. I&apos;m a currently a fourth year student majoring in Computer Science @ University of Waterloo.
           </p>
           <p className="text-lg mb-4">
             A strong passion for Backend, Game Developing, and Games :)
