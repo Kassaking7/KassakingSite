@@ -26,7 +26,7 @@ export default function Home() {
           <div className="space-y-8">
             <div className="border border-green-400 p-4 rounded-lg">
               <h3 className="text-xl font-semibold mb-2">Ripple</h3>
-              <p className="text-green-300 mb-2">Software Engineer Intern - 2024-05 -> 2024-08</p>
+              <p className="text-green-300 mb-2">Software Engineer Intern - 2024-05 -{">"} 2024-08</p>
               <ul className="list-disc list-inside">
                 <li>Contributed to the DeFi Team by developing new functionalities on XRPL servers to support the launch of multi-purpose tokens, enhancing institutional DeFi capabilities on the XRPL and driving adoption of decentralized finance solutions.</li>
                 <li>Designed a new feature for the XRP Ledger API server to retrieve expired ledger object information directly from
@@ -38,7 +38,7 @@ access to the database. This improves the retrieving speed by <b>10%</b></li>
             </div>
             <div className="border border-green-400 p-4 rounded-lg">
               <h3 className="text-xl font-semibold mb-2">Huawei Technologies Canada Co.</h3>
-              <p className="text-green-300 mb-2">Software Engineer Intern - 2023-05 -> 2023-08</p>
+              <p className="text-green-300 mb-2">Software Engineer Intern - 2023-05 -{">"} 2023-08</p>
               <ul className="list-disc list-inside">
                 <li>Contributed to Compiler Team by implementing optimizations on Bisheng LLVM Compiler that outperformed the
 original LLVM</li>
@@ -50,7 +50,7 @@ benchmark function by <b>20%</b></li>
             </div>
             <div className="border border-green-400 p-4 rounded-lg">
               <h3 className="text-xl font-semibold mb-2">Horizn</h3>
-              <p className="text-green-300 mb-2">Software Engineer Intern - 2022-09 -> 2022-12</p>
+              <p className="text-green-300 mb-2">Software Engineer Intern - 2022-09 -{">"} 2022-12</p>
               <ul className="list-disc list-inside">
                 <li>Contributed to Dev Team by crafting digital product learning platforms for various financial institutions, allowing an
                 acceleration on the impact of their digital transformation strategy </li>

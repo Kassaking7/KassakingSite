@@ -23,7 +23,7 @@ export default function RootLayout({
         </div>
         <div className="relative z-10">
         <header className="bg-black bg-opacity-70 text-green-400 p-4 sticky top-0 flex justify-between items-center">
-            <h1 className="text-2xl font-bold">Zhiyuan Wang's Website</h1>
+            <h1 className="text-2xl font-bold">Zhiyuan Wang&lsquo;s Website</h1>
             <div className="flex space-x-4">
     <a href="https://github.com/Kassaking7" target="_blank" rel="noopener noreferrer">
       <img src="github.svg" alt="GitHub" className="w-6 h-6 text-green-400"  />
